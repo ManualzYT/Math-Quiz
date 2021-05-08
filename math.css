@@ -9,7 +9,7 @@ color:aqua;
 }
 	.login_div1 , .login_div2
 	{
-		background: rgb(184, 103, 224);
+		background-color: rgb(180, 196, 248); 
 		padding: 10px;
 		float: none;
 		border-radius: 15px;
@@ -40,6 +40,12 @@ text-align: left;
 }
 
 #signup{
-background-color: brown;
+background-color: rgb(12, 110, 128);
 box-align: right;
+color:whitesmoke
+}
+
+#login{
+background-color: cornflowerblue;
+color:whitesmoke
 }
