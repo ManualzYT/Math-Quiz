@@ -1,6 +1,6 @@
 body
 {
-	background-image: url("Login_Background.jpg")
+	background-image: url("quiz_game_background.jpg");
 }
 
 h1
@@ -42,10 +42,12 @@ text-align: left;
 #signup{
 background-color: rgb(12, 110, 128);
 box-align: right;
-color:whitesmoke
+color:whitesmoke;
+margin-left: 10%;
 }
 
 #login{
 background-color: cornflowerblue;
 color:whitesmoke
 }
+
