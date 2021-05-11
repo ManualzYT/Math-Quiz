@@ -7,47 +7,49 @@ h1
 {
 color:aqua;    
 }
-	.login_div1 , .login_div2
-	{
-		background-color: rgb(180, 196, 248); 
-		padding: 10px;
-		float: none;
-		border-radius: 15px;
-	}
 
+body, html {
+	height: 100%;
+  }
+  
+  * {
+	box-sizing: border-box;
+  }
+  
 
-#player1_name , #player2_name
-{
-	display: inline-block;
-	margin-left: 20px;
-}
-#word
-{
-	width: 60%;
-}
-#word_display
-{
-	letter-spacing: 5px;
-}
-#output
-{
-background: rgb(178, 76, 230);
-border-radius: 10px;
-border-top: 10px solid #AA4465;
-padding: 10px;
-float: none;
-text-align: left;
-}
-
-#signup{
-background-color: rgb(12, 110, 128);
-box-align: right;
-color:whitesmoke;
-margin-left: 10%;
-}
-
-#login{
-background-color: cornflowerblue;
-color:whitesmoke
-}
-
+  
+  .container {
+	position: absolute;
+	right: 0;
+	margin: 20px;
+	max-width: 300px;
+	padding: 16px;
+	background-color: white;
+  }
+  
+	input[type=text], input[type=password] {
+	width: 100%;
+	padding: 15px;
+	margin: 5px 0 22px 0;
+	border: none;
+	background: #f1f1f1;
+  }
+  
+  input[type=text]:focus, input[type=password]:focus {
+	background-color: #ddd;
+	outline: none;
+  }
+  
+  .btn {
+	background-color: #04AA6D;
+	color: white;
+	padding: 16px 20px;
+	border: none;
+	cursor: pointer;
+	width: 100%;
+	opacity: 0.9;
+  }
+  
+  .btn:hover {
+	opacity: 1;
+  }

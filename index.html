@@ -13,28 +13,20 @@
 <script src="game_login.js"></script>
 </head>
 <body>
-<center>
-<h1>Welcome! Login or sign up to continue </h1>	
 
-
-<div class="col-lg-4 col-sm-8 col-xs-11 login_div1">
-<h3>Player 1 Login For The Game</h3>
-<label>Username: </label>
-<input type="text" id="player1_name_input" class="form_control" placeholder="player1 name">
-<br>	
-</div>
-<br>
-
-<div class="col-lg-4 col-sm-8 col-xs-11 login_div1">
-<h3>Player 2 Login For The Game</h3>
-<label>Username: </label>
-<input type="text" id="player2_name_input" class="form_control" placeholder="player2 name">
-<br>	
-</div>
-<br>
-<button id="login" style="width: 15%" class="btn btn-primary" onclick="addUser();">Login</button>
-<button id="signup"    style="width: 10%" class="btn btn secondary" onclick="addUser();">Sign up</button>
-</center>
+	<div class="bg-img">
+		<form action="quiz.html" class="container">
+		  <h1>Login</h1>
+	  
+		  <label for="email"><b>Email</b></label>
+		  <input type="text" placeholder="Enter Email" name="email" required>
+	  
+		  <label for="psw"><b>Password</b></label>
+		  <input type="password" placeholder="Enter Password" name="psw" required>
+	  
+		  <button type="submit" class="btn">Login</button>
+		</form>
+	  </div>	
 
 </body>
 </html>
