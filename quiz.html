@@ -12,6 +12,19 @@
 </head>
 <body>
 
+
+  <style>
+  body{
+  background-image: url("math_background.jpg");
+  }
+
+  #check_button{
+  background-color: aqua;	
+  }
+  </style>
+
+        
+
 	<h4 id="player1_name"></h4> <span id="player1_score"></span>
 	<br>
 	<h4 id="player2_name"></h4> <span id="player2_score"></span>
@@ -21,28 +34,24 @@
 		<h2 style="color: rgb(0, 0, 0);">The Math Quiz!</h2>
            <h3 id="player_question"></h3>
 		   <h3 id="player_answer"></h3>
-		   <div id="output" class="col-lg-6"></div>
-
+	 	   <div id="output" class="col-lg-6"></div>
+    
 		<br>
-		<br>
-
-        <label id="score1">Manvel:</label>	
-		<br>
-	    <label id="score2">Anonymous:</label>
-		<br>
+		
 		<label id="question_turn"> Question turn- <b style="color: red">Manvel</b></label>
         <br>
         <label id="answer_turn"> Answer turn- <b style="color: red">Anonymous</b></label>
-        
-		<input type="text" id="word" class="form-control" placeholder="word">
-        <br>
-        <input type="text" id="word" class="form-control" placeholder="word">
-        <br>    
-        <input type="text" id="word" class="form-control" placeholder="word">
-
 		<br>
-
-            <button onclick="send()" class="btn btn-success" style="width: 30%">Send</button>
+        <label id="question_number"></label>
+		<input id="input_box"></input> 
+		<br>
+		<button id="check_button">Check</button>
+		<br>
+		<input type="text" id="number1" class="form-control" placeholder="word">
+        <br>
+        <input type="text" id="number2" class="form-control" placeholder="answer">
+		<br>
+        <button onclick="send()" class="btn btn-success" style="width: 30%">Send</button>
 
 	</center>
 </div>

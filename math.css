@@ -5,8 +5,9 @@ body
 
 h1
 {
-color:aqua; 
-text-align: center;   
+color:darkred; 
+text-align: center;  
+font-weight: bold; 
 }
 
 body, html {
